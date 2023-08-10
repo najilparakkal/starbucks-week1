@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-page{
+    background:white;
+    width: 100%;
+    height: 450px;
+}
+.fixed{
+    width: 100%;
+    background: white;
+    height: 80px;
+    display: flex;
+    position: fixed;
+}
+.logo{
+    height: 50px;
+    padding-left: 127px;
+    padding-top: 14px;
+}
+.home{
+    font-size: 19px;
+    color: #212529;
+    padding-top: 15px;
+    padding-left: 58px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.search-bar{
+    height: 30px;
+    margin-top: 22px;
+    margin-left: 164px;
+    width: 210px;
+    border-radius: 18px;
+    padding-left: 21px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.mini-head{
+    width: 100%;
+    padding-top: 100px;
+    background: #1e3932;
+    display: flex;
+}
+.mini-head-text{
+    font-size: 20px;
+    padding-left: 130px;
+    padding-bottom: 23px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.mini-head-butten{
+    margin-left: 487px;
+    width: 98px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 23px;
+    background: transparent;
+    color: white;
+}
+.img-heading{
+    padding-left: 130px;
+    padding-top: 20px;
+    font-size: 29px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932
+}
+.head-images{
+    font-size: 11px;
+    height: 100px;
+    float: left;
+    padding-left: 93px;
+}
+.img{
+    height: 107px;
+    border-radius: 100%;
+}
+.img-text{
+    color: #1e3932;
+    font-size: 13px;
+    padding-left: 23px;
+    margin: 0px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    padding-top: 17px;
+}
+.second-page{
+    background:white;
+    width: 100%;
+    height: 700px;
+}
+.s-page-colom{
+    background:#ffaa00;
+    height: 250px;
+    margin-left: 124px;
+    margin-right: 124px;
+    margin-top: 28px;
+    border-radius: 12px;
+}
+.s-colom-img{
+    height: 232px;
+    float: left;
+}
+.s-page-colom-text{
+    height: 160px;
+    width: 100%;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+      color: #1e3932;
+}
+.s-page-colom-text-1{
+   
+    height: 36px;
+    padding-left: 159px;
+    padding-top: 17px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932
+}
+.s-page-colom-text-2{
+   
+    font-size: 24px;
+    padding-left: 159px;
+    margin-top: 0px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932
+}
+.s-page-colom-text-3{
+    
+    height: 35px;
+    padding-left: 159px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932
+}
+.order{
+    height: 66px;
+    display: flex;
+}
+.starting{
+    font-size: 18px;
+    padding-left: 45px;
+    margin: 4px;
+    width: 50%;
+    font-weight: lighter;
+}
+.order-butten{
+    float: left;
+    margin-left: 151px;
+    width: 182px;
+    height: 56px;
+    border-radius: 30px;
+    margin-top: 6px;
+    font-weight: 900;
+    background:#00754a;
+    color: white;
+    border: #00754a;
+}
+.letest-offerings{
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932;
+    padding-left: 80px;
+    font-size: 30px;
+    padding-top: 22px;
+}
+.offering-coloms{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.offer-colom{
+    height: 100%;
+    width: 25%;
+    border-radius: 15px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932;
+    border-bottom: #212529 solid 1px;
+}
+.offer-1-img{
+    height: 50%;
+    padding-top: 0px;
+    width: 337px;
+}
+.offer-1-img-text{
+    font-size: 14px;
+    padding-left: 22px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932;
+}
+.price-butten{
+    display: flex;
+}
+.offer-1-price{
+    font-size: 16px;
+    padding-left: 24px;
+}
+.offer-butten-1{
+    height: 31px;
+    width: 91px;
+    margin-left: 131px;
+    border-radius: 29px;
+    font-weight: 800;
+    font-size: 12px;
+    background: #00754a;
+    color: white;
+    border: #00754a;
+}
+.therd-page{
+    width: 100%;
+    height: 300px;
+    background: #edebe9;
+}
+.therd-page-text{
+    color: white;
+    padding-left: 80px;
+    font-size: 30px;
+    padding-top: 38px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932;
+}
+.therd-page-coloms{
+    display: flex;
+}
+.therd-page-colom{
+    width: 30%;
+    background: white;
+    display: flex;
+    margin-left: 40px;
+    border-radius: 19px;
+   
+}
+.therd-page-img{
+    height: 90px;
+    width: 108px;
+    border-radius: 22px;
+    margin-left: 25px;
+    margin-top: 16px;
+}
+.therd-page-img-text{
+    font-size: 12px;
+    margin-top: 24px;
+    margin-left: 20px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932;
+    height: 64px;
+    float: left;
+}
+
+.therd-page-img-price{
+    font-size: 20px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932;
+    padding-left: 38px;
+    margin-top: 0px;
+}
+.therd-page-add-butten{
+    height: 34px;
+    width: 86px;
+    border-radius: 30px;
+    margin-left: 152px;
+    margin-top: 0;
+    font-size: 11px;
+    font-weight: 700;
+}
+.forth-page{
+    background: white;
+    width: 100%;
+    height: 600px;
+}
+.forth-page-head-line{
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+.forth-page-colom{
+    background: #edebe9;
+    height: 500px;
+}
+.forth-page-colom-text-butten{
+    display: flex;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #1e3932;
+    justify-content: space-between;
+}
+.forth-page-colom-text{
+    font-size: 21px;
+    padding-left: 114px;
+}
+.forth-page-colom-butten{
+    margin-right: 113px;
+    padding-top: 18px;
+    font-size: 12px;
+    font-weight: 900;
+    color: #00754a;
+}
+.forth-page-colom-img{
+    height: 400px;
+    background-image:   url("Coffeculture_Blog_Web_Banner_2_X_8b72db6546.jpg") ;
+    margin-left: 113px;
+    margin-right: 113px;
+    border-radius: 14px;
+}
+.forth-page-img-text-div{
+    padding-left: 46px;
+    color: white;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.forth-page-colom-img-text{
+    font-size: 27px;
+    padding-top: 230px;
+}
+.forth-page-colom-img-butten{
+    height: 36px;
+    width: 190px;
+    border-radius: 30px;
+    margin-top: 25px;
+    border: white;
+}
+.forth-page-colom-img-p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.final-page{
+    width: 100%;
+    background:#0e382c;
+    height: 550px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.final-page-div{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.final-page-colom{
+    width: 16%;
+    height: 80%;
+}
+.final-page-logo{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.final-page-heading{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 73px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: white;
+}
+.final-page-a{
+    margin-top: 15px;
+    display:flex;
+    flex-direction: row;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: white;
+}
+.final-page-icon{
+    height: 30px;
+    padding-left: 11px;
+}
+.final-page-stors{
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+    margin-top: 20px;
+}
+.final-page-stors-div{
+    padding-top: 70px;
+}
+.final-page-line{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 0;
+}
+.final-page-link-div{
+    display: flex;
+}
+.final-page-link{
+    padding-left: 86px;
+    padding-top: 31px;
+    color: white;
+    width: 50%;
+}
+.final-page-link-2{
+    padding-left: 255px;
+    padding-top: 36px;
+    color: white;
+    width: 17%;
+    font-size: 9px;
+}
